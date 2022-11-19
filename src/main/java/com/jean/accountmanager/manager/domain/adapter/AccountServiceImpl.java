@@ -18,4 +18,9 @@ public class AccountServiceImpl implements AccountService {
     public Account createAccount(Account account) {
         return accountRepository.createAccount(account);
     }
+
+    @Override
+    public Account getAccount(Integer accountId) {
+        return accountRepository.findAccount(accountId);
+    }
 }
