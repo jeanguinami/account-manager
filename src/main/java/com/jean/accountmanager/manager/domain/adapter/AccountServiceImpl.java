@@ -1,7 +1,9 @@
 package com.jean.accountmanager.manager.domain.adapter;
 
 import com.jean.accountmanager.manager.domain.model.Account;
+import com.jean.accountmanager.manager.domain.model.Transaction;
 import com.jean.accountmanager.manager.domain.port.repository.AccountRepository;
+import com.jean.accountmanager.manager.domain.port.repository.TransactionRepository;
 import com.jean.accountmanager.manager.domain.port.service.AccountService;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
