@@ -34,7 +34,7 @@ public class ApiExceptionHandler {
 
     @ExceptionHandler({ ApplicationException.class })
     public ResponseEntity<Object> handleApplicationException(ApplicationException exception, WebRequest request) {
-        log.error("Application Exception ", exception);
+        log.error("App Exception ", exception);
 
         ErrorResponse errorResponse = exception.getErrorResponse();
 
